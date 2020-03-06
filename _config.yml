@@ -1,0 +1,36 @@
+# Site settings
+title: Steak.and.ADA - easy ADA staking
+email: steakandbake@protonmail.com
+baseurl: "/ada" # the subpath of your site, e.g. /blog
+url: "https://steakandbake.github.io" # the base hostname & protocol for your site
+author:
+street_address: ada blockchain
+city: cardano, ada
+state: web3.0
+zip_code: 
+country: japan
+phone:
+
+# Homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 3
+
+# Misc settings
+featured-image-source:
+
+# Social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/steakandbake
+gitlab_url: 
+googleplus_url: 
+instagram_url:
+linkedin_url: 
+pinterest_url:
+riot_url: https://matrix.to/#/!EhZdmqoozSndhXqAGG:matrix.org?via=matrix.org
+twitter_url: https://twitter.com/steakandbaker
+stackexchange_url: https://tezos.stackexchange.com/users/4801/steakandbake?tab=profile
+reddit_url: https://www.reddit.com/user/steakandbaker
+
+# Build settings
+markdown: kramdown
