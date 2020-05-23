@@ -34,7 +34,7 @@ console.log("Fetching data...");
 getJSON("https://pooltool.s3-us-west-2.amazonaws.com/8e4d2a3/pools/bbd7c079eeb2d60a5c625b1e2787b088b651ccbdccac5cc93e64d63205a3251b/livestats.json").then(data => {
   //console.log(data);
   var freeSpace = ((100000000000000 - data.livestake) / 1000000).toFixed(0);
-  console.log(freeSpace);
+  //console.log(freeSpace);
   if (freeSpace > 100) {
   	freeSpace = numberWithCommas(freeSpace)
 	$("#space_msg").text("OPEN: We have space for " + freeSpace + " ada.");
