@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lucrative - Earn and Compound your ADA
-description: Compounding passive crypto income is now a reality with Steak.and.ADA's low fees of 0.95%.
+description: Compounding passive crypto income is now a reality with Steak.and.ADA's low pool fee of 2%.
 image: pic02.jpg
 ---
 

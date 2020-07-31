@@ -29,7 +29,7 @@ function numberWithCommas(n) {
     var parts=n.toString().split(".");
     return parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",") + (parts[1] ? "." + parts[1] : "");
 }
-
+/*
 console.log("Fetching data...");
 getJSON("https://pooltool.s3-us-west-2.amazonaws.com/8e4d2a3/pools/bbd7c079eeb2d60a5c625b1e2787b088b651ccbdccac5cc93e64d63205a3251b/livestats.json").then(data => {
   //console.log(data);
@@ -46,7 +46,7 @@ getJSON("https://pooltool.s3-us-west-2.amazonaws.com/8e4d2a3/pools/bbd7c079eeb2d
 }).catch(error => {
   console.error(error);
 });
-
+*/
 $(document).ready(function(){
     var clipboard = new ClipboardJS('#btn_copy');
     
@@ -54,7 +54,7 @@ $(document).ready(function(){
         $("#btn_copy span").text("Copied");
             
             setTimeout(function () {
-                    $("#btn_copy span").text("Copy Address");
+                    $("#btn_copy span").text("Copy Pool ID");
                 }, 2000);
             });
         });
