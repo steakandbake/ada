@@ -29,24 +29,23 @@ function numberWithCommas(n) {
     var parts=n.toString().split(".");
     return parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",") + (parts[1] ? "." + parts[1] : "");
 }
-/*
+
 console.log("Fetching data...");
-getJSON("https://pooltool.s3-us-west-2.amazonaws.com/8e4d2a3/pools/bbd7c079eeb2d60a5c625b1e2787b088b651ccbdccac5cc93e64d63205a3251b/livestats.json").then(data => {
-  //console.log(data);
-  var freeSpace = ((100000000000000 - data.livestake) / 1000000).toFixed(0);
-  //console.log(freeSpace);
+getJSON("https://js.adapools.org/pools/f76e3a1104a9d816a67d5826a155c9e2979a839d0d944346d47e33ab/summary.json").then(data => {
+  console.log(data);
+  var freeSpace = ((25000000000000 - data.data.total_stake) / 1000000).toFixed(0);
+  console.log(freeSpace);
   if (freeSpace > 100) {
   	freeSpace = numberWithCommas(freeSpace)
 	$("#space_msg").text("OPEN: We have space for " + freeSpace + " ada.");
 	$("#currentStatus").text("ACCEPTING NEW DELEGATIONS. Space for "+ freeSpace + " ada.");
   } else {
-	//$("#space_msg").text("CLOSED: We're out of space. Thanks for looking!");
-	//$("#currentStatus").text("CLOSED FOR DELEGATIONS.");
+	$("#space_msg").text("CLOSED: We're out of space. Thanks for looking!");
+	$("#currentStatus").text("CLOSED FOR DELEGATIONS.");
   }
 }).catch(error => {
   console.error(error);
 });
-*/
 $(document).ready(function(){
     var clipboard = new ClipboardJS('#btn_copy');
     
