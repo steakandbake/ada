@@ -1,7 +1,6 @@
 <section id="two" class="wrapper alt style2">
 
-	{% for post in site.posts limit:site.tiles-count %}{% if site.tiles-source == 'posts' %}
-
+	{% for post in site.posts limit:site.tiles-count offset:2 %}{% if site.tiles-source == 'posts' %}
 	<section class="spotlight">
 		<div class="image">{% if post.image %}<img src="{% if site.featured-image-source %}{{ post.image | prepend: site.featured-image-source | absolute_url }}{% else %}{{ "" | absolute_url }}/assets/images/{{ post.image }}{% endif %}" alt="" />{% endif %}</div>
 		<div class="content">
@@ -10,7 +9,7 @@
 		</div>
 	</section>
 
-	{% endif %}{% endfor %}
+    {% endif %}{% endfor %}
 	{% for page in site.pages limit:site.tiles-count %}{% if site.tiles-source == 'pages' %}{% if page.layout == 'default' %}{% continue %}{% endif %}
 
 	<section class="spotlight">

@@ -1,0 +1,16 @@
+<section id="four" class="wrapper alt style2">
+
+	{% for post in site.posts limit:site.tiles-howto-count %}
+	<section class="spotlight">
+		<div class="image">{% if post.image %}
+			<a href="{{ post.url | relative_url }}" class="link">
+				<img src="{% if site.featured-image-source %}{{ post.image | prepend: site.featured-image-source | absolute_url }}{% else %}{{ "" | absolute_url }}/assets/images/{{ post.image }}{% endif %}" alt="" />{% endif %}
+			</a>
+		</div>
+		<div class="content">
+			<h2><a href="{{ post.url | relative_url }}" class="link">{{ post.title }}</a></h2></h2>
+			<p>{{ post.description }}</p>
+		</div>
+	</section>
+	{% endfor %}
+</section>
