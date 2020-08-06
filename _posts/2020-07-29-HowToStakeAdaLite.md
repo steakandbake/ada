@@ -18,10 +18,10 @@ Since the dawn of Cardano entering the the Shelley era, you can now delegate you
 		<table>
 			<tbody>
 				<tr>
-					<td>1) Connect your Ledger Nano, enter PIN and open Ledger Live</td>
+					<td>1) Connect your Ledger Nano, enter PIN and open Ledger Live.</td>
 				</tr>
 				<tr>
-					<td>2) Click Manager and then upgrade your firmware to version 1.6 or greater.</td>
+					<td>2) Click Manager and then upgrade your firmware to [version 1.6 or greater for Ledger Nano S] or [version 1.2.4 or greater for Ledger Nano X].</td>
 				</tr>
 				<tr>
 					<td>3) Update the Cardano ADA app to version 2.0.3 or greater.</td>
