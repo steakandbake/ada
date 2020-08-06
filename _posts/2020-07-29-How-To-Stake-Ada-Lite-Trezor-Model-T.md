@@ -1,30 +1,30 @@
 ---
 layout: post
-title: Staking with Ledger Nano S/X
+title: Staking with Trezor Model T
 description: Learn how to with adalite.io
-image: pic07.jpg
+image: pic08.jpg
 ---
 
-## Staking with Ledger Nano S/X and AdaLite.io
+## Staking with Trezor Model T and AdaLite.io
 
 Since the dawn of Cardano entering the the Shelley era, you can now delegate your ADA coins to a stake pool. This is known as staking where you earn new ADA as staking rewards. This guide is primarily for ada holders who wish to delegate their ada to a stake pool, but are not sure about where to start.
 
 ------------
 
-### Update with Ledger Live
+### Update Firmware
 
 <section>
 	<div class="table-wrapper">
 		<table>
 			<tbody>
 				<tr>
-					<td>1) Connect your Ledger Nano, enter PIN and open Ledger Live</td>
+					<td>1) Plug in your Trezor, enter PIN and visit <a href="https://wallet.trezor.io/">Trezor.io Wallet</a> or use your bookmarked Trezor site.</td>
 				</tr>
 				<tr>
-					<td>2) Click Manager and then upgrade your firmware to version 1.6 or greater.</td>
+					<td>2) The website will prompt you to upgrade your firmware to <a href="https://blog.trezor.io/firmware-updates-for-trezor-model-t-version-2-3-2-and-trezor-model-one-version-1-9-2-f4f9c0f1ed7c">version 2.3.2</a> or greater.</td>
 				</tr>
 				<tr>
-					<td>3) Update the Cardano ADA app to version 2.0.3 or greater.</td>
+					<td>3) Follow the update instructions on screen. Unplug, swipe screen, replug and confirm.</td>
 				</tr>
 			</tbody>
 		</table>
@@ -42,24 +42,22 @@ Since the dawn of Cardano entering the the Shelley era, you can now delegate you
 					<td>1) Visit <a href="https://adalite.io">adalite.io</a></td>
 				</tr>
 				<tr>
-					<td>2) Click "Continue to ADALite"</td>
+					<td>2) Click "Continue to ADALite".</td>
 				</tr>
 				<tr>
-					<td>3) Click "Hardware Wallet"<br>
+					<td>3) Click "Hardware Wallet".<br>
 
 <img src="/ada/assets/images/al-ledger-intro.png">
 </td>
 				</tr>
 				<tr>
-					<td>4) Click "Unlock with Ledger" button<br>
-
-<img src="/ada/assets/images/al-ledger-unlock.png"></td>
+					<td>4) Click "Unlock with Trezor" button.<br><img src="/ada/assets/images/al-trez-unlock.png"></td>
 				</tr>
 				<tr>
-					<td>5) On your Ledger wallet, confirm exporting the public key. This happens twice and needs two clicks.</td>
+					<td>5) On the adalite website, allow adalite.io to read public keys from your Trezor device. Click "Allow once for this session". Then click "Export".<br><img src="/ada/assets/images/al-trez-allow.png"></td>
 				</tr>
 				<tr>
-					<td>6) If you previously had ADA before Shelley, you need to convert your balance to a Shelley Wallet. Click "Convert to stakable". Next, review and click "Confirm Transaction" and confirm transaction on your Ledger Nano.</td>
+					<td>6) If you previously had ADA before Shelley, you need to convert your balance to a Shelley Wallet. Click "Convert to stakable". Next, review and click "Confirm Transaction" and confirm transaction on your Trezor.</td>
 				</tr>				
 				<tr>
 					<td>7) With a stakable balance, you can now choose a stake pool.</td>
@@ -73,7 +71,7 @@ Our pool ID is <code>f76e3a1104a9d816a67d5826a155c9e2979a839d0d944346d47e33ab</c
 <img src="/ada/assets/images/al-ledger-delegate-section.png"></td>
 				</tr>
 				<tr>
-					<td>9) Review the delegation, click "Delegate" and confirm transaction on your Ledger Nano.</td>
+					<td>9) Review the delegation, click "Delegate" and confirm transaction on your Trezor.</td>
 				</tr>						
 			</tbody>
 		</table>
