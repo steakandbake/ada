@@ -81,7 +81,7 @@ Since the dawn of Cardano entering the the Shelley era, you can now delegate you
 ------------
 
 <h3>Nice Steak!</h3>
-<blockquote>Now you're now staking ADA. You're set to earn rewards every 5 days. First payout should arrive in about 16 days. HAPPY STEAKING! </blockquote>
+<blockquote>Now you're staking ADA. You're set to earn rewards every 5 days. First payout should arrive in about 16 days. HAPPY STEAKING! </blockquote>
 
 ------------
 
