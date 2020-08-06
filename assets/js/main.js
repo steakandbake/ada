@@ -33,12 +33,13 @@ function numberWithCommas(n) {
 console.log("Fetching data...");
 getJSON("https://js.adapools.org/pools/f76e3a1104a9d816a67d5826a155c9e2979a839d0d944346d47e33ab/summary.json").then(data => {
   console.log(data);
-  var freeSpace = ((25000000000000 - data.data.total_stake) / 1000000).toFixed(0);
+  //var freeSpace = (((31112483745 * 1000000) / 100) - (data.data.total_stake / 1000000)).toFixed(0);
+  var freeSpace = (((31112483745) / 100) - (data.data.total_stake / 1000000)).toFixed(0);
   console.log(freeSpace);
   if (freeSpace > 100) {
   	freeSpace = numberWithCommas(freeSpace)
-	$("#space_msg").text("OPEN: We have space for " + freeSpace + " ada.");
-	$("#currentStatus").text("ACCEPTING NEW DELEGATIONS. Space for "+ freeSpace + " ada.");
+	$("#space_msg").text("OPEN: We have space for " + freeSpace + " ADA.");
+	$("#currentStatus").text("ACCEPTING NEW DELEGATIONS. Space for "+ freeSpace + " ADA.");
   } else {
 	$("#space_msg").text("CLOSED: We're out of space. Thanks for looking!");
 	$("#currentStatus").text("CLOSED FOR DELEGATIONS.");
