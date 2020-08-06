@@ -3,14 +3,6 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-/*
-function clipboardAddress(address) {
-  var $temp = $("<input>");
-  $("body").append($temp);
-  $temp.val(address).select();
-  document.execCommand("copy");
-  $temp.remove();
-}*/
 
 const getJSON = async url => {
   try {
@@ -33,7 +25,6 @@ function numberWithCommas(n) {
 console.log("Fetching data...");
 getJSON("https://js.adapools.org/pools/f76e3a1104a9d816a67d5826a155c9e2979a839d0d944346d47e33ab/summary.json").then(data => {
   console.log(data);
-  //var freeSpace = (((31112483745 * 1000000) / 100) - (data.data.total_stake / 1000000)).toFixed(0);
   var freeSpace = (((31112483745) / 100) - (data.data.total_stake / 1000000)).toFixed(0);
   console.log(freeSpace);
   if (freeSpace > 100) {
