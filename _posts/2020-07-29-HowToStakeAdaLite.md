@@ -2,7 +2,7 @@
 layout: post
 title: Staking with Ledger Nano S/X
 description: Learn how to with adalite.io
-image: pic07.jpg
+image: pic06.jpg
 ---
 
 ## Staking with Ledger Nano S/X and AdaLite.io

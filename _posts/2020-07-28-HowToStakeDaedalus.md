@@ -2,7 +2,7 @@
 layout: post
 title: Staking with Daedalus
 description: Learn how to with Daedalus.
-image: pic06.jpg
+image: pic07.jpg
 ---
 
 
