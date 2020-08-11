@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Staking with Daedalus
-description: Learn how to with Daedalus.
+description: Learn how to delegate your stake with Daedalus.
 image: pic07.jpg
 ---
 
@@ -93,6 +93,7 @@ Since the dawn of Cardano entering the the Shelley era, you can now delegate you
 * You can check the progress of your rewards every epoch or 5 days.
 * Rewards multiply with the power of compounding.
 * If you add more ADA to your account, the new ADA is automatically delegated. No need to re-delegate!
+* A minimum of 10 ADA is required to start a delegation.
 
 ------------
 

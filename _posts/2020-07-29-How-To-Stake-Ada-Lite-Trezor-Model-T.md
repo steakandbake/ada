@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Staking with Trezor Model T
-description: Learn how to with adalite.io
+description: Learn how to delegate your stake with adalite.io
 image: pic08.jpg
 ---
 
@@ -93,6 +93,7 @@ Our pool ID is <code>f76e3a1104a9d816a67d5826a155c9e2979a839d0d944346d47e33ab</c
 * You can check the progress of your rewards every epoch or 5 days.
 * Rewards multiply with the power of compounding.
 * If you add more ADA to your account, the new ADA is automatically delegated. No need to re-delegate!
+* A minimum of 10 ADA is required to start a delegation.
 
 ------------
 
