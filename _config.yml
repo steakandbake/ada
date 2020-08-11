@@ -14,7 +14,7 @@ phone:
 # Homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 3
-tiles-howto-count: 3
+tiles-howto-count: 4
 tiles-howto-source: pages # accepts "posts" or "pages"
 
 # Misc settings
