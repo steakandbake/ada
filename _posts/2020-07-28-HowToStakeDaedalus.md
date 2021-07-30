@@ -8,7 +8,7 @@ image: pic07.jpg
 
 ## Staking Cardano for Beginners Step by Step
 
-Since the dawn of Cardano entering the the Shelley era, you can now delegate your ADA coins to a stake pool. This is known as staking where you earn new ADA as staking rewards. This guide is primarily for ada holders who wish to delegate their ada to a stake pool, but are not sure about where to start.
+Since the dawn of Cardano's Shelley era, you're able to delegate your ADA coins to a stake pool. This is known as staking where you earn new ADA as staking rewards. This guide is primarily for ada holders who wish to delegate their ada to a stake pool, but are not sure about where to start.
 
 ------------
 
