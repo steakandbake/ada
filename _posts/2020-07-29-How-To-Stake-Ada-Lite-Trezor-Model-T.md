@@ -7,7 +7,7 @@ image: pic08.jpg
 
 ## Staking with Trezor Model T and AdaLite.io
 
-Since the dawn of Cardano entering the the Shelley era, you can now delegate your ADA coins to a stake pool. This is known as staking where you earn new ADA as staking rewards. This guide is primarily for ada holders who wish to delegate their ada to a stake pool, but are not sure about where to start.
+Since the dawn of Cardano's Shelley era, you can delegate your ADA coins to a stake pool. This is known as staking where you earn new ADA as staking rewards. This guide is primarily for ada holders who wish to delegate their ada to a stake pool, but are not sure about where to start.
 
 ------------
 
@@ -81,7 +81,7 @@ Our pool ID is <code>f76e3a1104a9d816a67d5826a155c9e2979a839d0d944346d47e33ab</c
 ------------
 
 <h3>Nice Steak!</h3>
-<blockquote>Now you're staking ADA. You're set to earn rewards every 5 days. First payout should arrive in about 16 days. HAPPY STEAKING! </blockquote>
+<blockquote>Now you're staking ADA. You're set to earn rewards every 5 days. First payout should arrive in about 15-20 days. HAPPY STEAKING! </blockquote>
 
 ------------
 
