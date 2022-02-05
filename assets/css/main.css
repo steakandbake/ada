@@ -2815,6 +2815,31 @@
 
 			}
 
+		.wrapper.style1.calc {
+			background-color: #6e3666;
+			color: #ffffff;
+			text-align: center;
+		}
+
+			.wrapper.style1.calc h2 {
+				color: #ffffff;
+			}
+
+			.wrapper.style1.calc b {
+				color: #ffffff;
+				text-decoration-line: underline;
+				text-decoration-color: #c0b293;
+			}
+
+			.wrapper.style1.calc input {
+				text-align: center;
+				color: #ffffff;
+			}
+
+			.wrapper.style1.calc h3, .wrapper.style1.calc h4, .wrapper.style1.calc h5, .wrapper.style1.calc h6 {
+				color: #c0b293;
+			}
+
 		.wrapper.style2 {
 			background-color: #4a8dab;
 		}
