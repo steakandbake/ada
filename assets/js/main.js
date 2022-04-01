@@ -43,10 +43,10 @@ getJSON("https://js.adapools.org/pools/f76e3a1104a9d816a67d5826a155c9e2979a839d0
   if (freeSpace > 100) {
   	freeSpace = numberWithCommas(freeSpace)
 	$("#space_msg").text("OPEN: We have space for " + freeSpace + " ADA.");
-	$("#currentStatus").text("ACCEPTING NEW DELEGATIONS. Space for "+ freeSpace + " ADA.");
+	$("#currentStatus").text("OPEN: ACCEPTING NEW DELEGATIONS. Space for "+ freeSpace + " ADA.");
   } else {
-	$("#space_msg").text("CLOSED: We're out of space. Thanks for looking!");
-	$("#currentStatus").text("CLOSED FOR DELEGATIONS.");
+	$("#space_msg").text("FULL: We're out of space. Thanks for looking!");
+	$("#currentStatus").text("FULL: NO ROOM FOR NEW DELEGATIONS.");
   }
   // ros calc
   var ros = data.data.roa_lifetime;
