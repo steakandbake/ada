@@ -1,4 +1,5 @@
 {
+  "verification":"551c0e8263dbe85a9f",
   "itn": {
     "owner": "ed25519_pk16kf7gvuje0qf5u5ms6a80ykd6u6x779j8ahq7p72x9argwqwupzs6ql3mc",
     "witness": "ed25519_sig197dwqyh5cjc72msnuprg6u3racln49nzmckymeykkxt7ndzv49d54k9027hk0g38t9s8fl2et2392x0ucz4hfclyaqqzh92663ne6zgklgds5"
@@ -23,5 +24,4 @@
   "when-satured-then-recommend": {
     "0": "c34a7f59c556633dc88ec25c9743c5ebca3705e179a54db5638941cb"
   }
-  "verification":"551c0e8263dbe85a9f",
 }
